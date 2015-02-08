@@ -1,0 +1,59 @@
+html, body, .background {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: url('/images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    position: fixed;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.menu {
+    padding-top: 20px;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-right: 60px;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 28px;
+    }
+
+    label {
+        vertical-align: middle;
+    }
+
+    a {
+        color: $text-color;
+    }
+
+    svg {
+        height: 25px;
+        width: 34px;
+        vertical-align: middle;
+    }
+
+}
+
+.svg {
+    fill: $text-color;
+}

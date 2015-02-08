@@ -1,0 +1,23 @@
+<template name="hotels">
+    
+    <div class="frame">
+        
+    <h1>Hotels</h1>
+
+    {{#each this.hotels}}
+    
+        {{> hotel}}
+
+    {{/each}}
+
+    <h1>Chambres d'Hotes</h1>
+
+    {{#each this.chambres}}
+    
+        {{> hotel}}
+
+    {{/each}}
+
+    </div>
+
+</template>

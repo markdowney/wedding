@@ -1,0 +1,54 @@
+<template name="layout">
+
+    <div class="background"></div>
+
+    <div class="content">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="{{pathFor 'home'}}">
+                        <span class="icon">{{> icon_heart}}</span> 
+                        <label>P+C</label>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{pathFor 'programme'}}">
+                        <span class="icon">{{> icon_book}}</span> 
+                        <label>Programme</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'transport'}}">
+                        <span class="icon">{{> icon_compass}}</span>
+                        <label>Transport</label>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'hotels'}}">
+                        <span class="icon">{{> icon_house}}</span>
+                        <label>Hotels</label></a>
+                </li>
+                <li>
+                    <a href="http://www.millemercismariage.com/paulineetchristophe/liste.html" target="_blank"><span class="icon">{{> icon_gift}}</span>
+                    <label>Liste de Mariage</label></a></li>
+                <li>
+                    <a href="{{pathFor 'rsvp'}}">
+                        <span class="icon">{{> icon_trumpet}}</span>
+                        <label>RSVP</label>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        {{> yield}}
+
+        <div class="footer">
+            <a href="http://thebakery.io" target="_blank">Made by The Bakery</a>
+        </div>
+    </div>
+
+    
+
+</template>

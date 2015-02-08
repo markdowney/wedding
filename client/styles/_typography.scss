@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'billy';
+    src: url('/fonts/billy.ttf') format('truetype'); /* Chrome 26+, Opera 23+ */
+}
+
+body {
+    font-family: 'billy';
+    color: $text-color;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0.25em 0 0.5em 0;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin: 0 0 0.5em 0;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.6em;
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+}

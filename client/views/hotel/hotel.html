@@ -1,0 +1,26 @@
+<template name="hotel">
+        
+    <div class="hotel">
+
+        <div class="left">
+            
+            <h2>{{name}}</h2>
+            <p>{{address.street}},<br>{{address.city}}</p>
+            <p>{{phone}},<br>{{email}}</p>
+            <p><a href="{{url}}" target="_blank">{{url}}</a></p>
+            <p>{{comment.distance}}<br>{{comment.price}}<br>{{comment.room}}</p>
+        </div>
+    
+        <div class="right">
+            {{> map}}
+        </div>
+
+        {{#if comment.special}}
+            <div class="ccoeur">
+                {{> icon_heart_arrow}}
+                <p>{{comment.special}}</p>
+            </div>
+        {{/if}}
+    </div>
+
+</template>

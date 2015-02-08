@@ -1,0 +1,34 @@
+.hotel {
+    text-align: left;
+    margin-bottom: 50px;
+
+    // text-align: left;
+    // padding-bottom: 50px;
+    // background-image: url('/images/sep.png');
+    // background-repeat: no-repeat;
+    // background-position: 50% 100%;
+    // margin-bottom: 30px;
+    // background-size: 80px;
+
+    a {
+        color: $light_blue;
+    }
+
+    .ccoeur {
+        display: inline-block;
+        margin-top: 30px;
+        position: relative;
+
+        svg {
+            height: 45px;
+            width: 60px;
+            position: absolute;
+            top: 20px;
+        }
+
+        p {
+            padding-left: 80px;
+        }
+    }
+
+}

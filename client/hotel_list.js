@@ -1,19 +1,19 @@
 hotels = [
 
     {
-        name : "La Fregate**",
+        name : "La Frégate**",
         address : {
             street : "34 Avenue de l'Ocean",
             city :  "33970 Lege Cap Ferret, France"
         },
-        type : "Hotel",
+        type : "Hôtel",
         email : "resa@hotel-la-fregate.net",
         phone : "05 56 60 41 62",
         comment : {
             distance : "A 50m de notre fete",
             price : "A partir de 70 euros",
             rooms : "28 chambres",
-            special : "Notre coup de coeur (a 50m de la soiree). Hotel avec piscine a quelques metres du bassin, de la jetee Belisaire, de l’ocean et du lieu de la soiree. Mentionner le mariage de Pauline et Christophe et donner son nom pour pouvoir reserver."
+            special : "Notre coup de coeur (a 50m de la soirée). Hôtel avec piscine à quelques metres du bassin, de la jetée Belisaire, de l’ocean et du lieu de la soirée. Mentionner le mariage de Pauline et Christophe et donner son nom pour pouvoir réserver."
         },
         url : "http://hotel-la-fregate.net",
         coord : {
@@ -23,7 +23,7 @@ hotels = [
     },
 
     {
-        name : "Hotel du Cap**",
+        name : "Hôtel du Cap**",
         address : {
             street : "58 avenue de l'Ocean ",
             city :  "33970 Lege Cap Ferret, France"
@@ -32,7 +32,7 @@ hotels = [
         email : "contact@hotelducapferret.com",
         phone : "05 56 60 60 60",
         comment : {
-            distance : "A 1 km de notre fete",
+            distance : "A 1 km de notre fête",
             price : "A partir de 67 euros",
             rooms : "14 chambres"
         },
@@ -52,7 +52,7 @@ hotels = [
         email : "hotel.pavillonbleu@wanadoo.fr",
         phone : "05 56 60 65 48",
         comment : {
-            distance : "A 1 km de notre fete",
+            distance : "A 1 km de notre fête",
             price : "A partir de 59 euros",
             rooms : "13 chambres"
         },
@@ -63,7 +63,7 @@ hotels = [
         }
     },
     {
-            name : "Hotel des Dunes***",
+            name : "Hôtel des Dunes***",
             address : {
                 street : "119 avenue de Bordeaux",
                 city :  "33970 Lege Cap Ferret, France"
@@ -72,7 +72,7 @@ hotels = [
             email : "capferret@hoteldesdunes.com",
             phone : "05 56 60 61 81",
             comment : {
-                distance : "A 3 km de notre fete",
+                distance : "A 3 km de notre fête",
                 price : "A partir de 150 euros",
                 rooms : "14 chambres"
             },
@@ -92,7 +92,7 @@ hotels = [
         email : "contact@cotesable.fr",
         phone : "05 57 17 07 27",
         comment : {
-            distance : "A 1 km de notre fete",
+            distance : "A 1 km de notre fê te",
             price : "A partir de 231 euros",
             rooms : "15 chambres"
         },
@@ -112,7 +112,7 @@ hotels = [
         email : "lamaisondubassin@gmail.com",
         phone : "05 56 60 60 63",
         comment : {
-            distance : "A 2 km de notre fete",
+            distance : "A 2 km de notre fête",
             price : "A partir de 140 euros",
             rooms : "11 chambres"
         },
@@ -123,7 +123,7 @@ hotels = [
         }
     },
 {
-        name : "Hotel des Pins",
+        name : "Hôtel des Pins",
         address : {
             street : "23 rue des Fauvettes",
             city :  "33970 Lege Cap Ferret, France"
@@ -132,7 +132,7 @@ hotels = [
         email : "contact@hoteldespins.eu",
         phone : "05 56 60 60 11",
         comment : {
-            distance : "A 2 km de notre fete",
+            distance : "A 2 km de notre fête",
             price : "A partir de 62 euros",
             rooms : "14 chambres"
         },
@@ -162,7 +162,7 @@ hotels = [
         }
     },
 {
-        name : "Hotel de la Plage",
+        name : "Hôtel de la Plage",
         address : {
             street : "1, avenue de L'Herbe",
             city :  "33950 l’Herbe, France, France"
@@ -193,7 +193,7 @@ chambres = [
         type : "Chambre d’hotes",
         phone : "06 70 34 69 87",
         comment : {
-            distance : "A 3 km de notre fete",
+            distance : "A 3 km de notre fête",
             price : "A partir de 75 euros",
             rooms : "4 chambres"
         },
@@ -212,7 +212,7 @@ chambres = [
         type : "Chambre d’hotes",
         phone : "05 56 60 89 19",
         comment : {
-            distance : "A 1 km de notre fete",
+            distance : "A 1 km de notre fête",
             price : "A partir de 110 euros",
             rooms : "5 chambres"
         },
@@ -231,7 +231,7 @@ chambres = [
         type : "Chambre d’hotes",
         phone : "05 56 60 42 96",
         comment : {
-            distance : "A 5 km de notre fete",
+            distance : "A 5 km de notre fête",
             price : "A partir de 115 euros",
             rooms : "3 chambres"
         },

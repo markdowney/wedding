@@ -19,6 +19,24 @@ Template.map.rendered = function(){
     
     var map = new google.maps.Map(this.$('.map-canvas')[0],mapOptions);
 
+    var partyCoord = {
+        lat : '44.65628',
+        lng : '-1.246141'
+    };
+
+    var thePartyMarker = new google.maps.Marker({
+        map:map, draggable:false,
+        animation: google.maps.Animation.DROP,
+        position: new google.maps.LatLng(partyCoord.lat, partyCoord.lng),
+        icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+    });
+
+    var partyWindow = new google.maps.InfoWindow({
+      content: 'Soirée'
+    });
+
+    partyWindow.open(map, thePartyMarker);
+
     var theMarker = new google.maps.Marker({
         map:map, draggable:false,
         animation: google.maps.Animation.DROP,
@@ -27,25 +45,9 @@ Template.map.rendered = function(){
     });
 
     var infowindow = new google.maps.InfoWindow({
-      content: this.data.name
+      content: "<strong>"+this.data.name+"</strong>"
     });
 
     infowindow.open(map, theMarker);
 
-    // var partyCoord = {
-    //     lat : '44.65628',
-    //     lng : '-1.246141'
-    // };
-
-    // var thePartyMarker = new google.maps.Marker({
-    //     map:map, draggable:false,
-    //     animation: google.maps.Animation.DROP,
-    //     position: new google.maps.LatLng(partyCoord.lat, partyCoord.lng)
-    // });
-
-    // var partyWindow = new google.maps.InfoWindow({
-    //   content: 'Soirée'
-    // });
-
-    // partyWindow.open(map, thePartyMarker);
 };

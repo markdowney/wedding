@@ -37,7 +37,7 @@ Template.programme.rendered = function(){
         map:map, draggable:false,
         animation: google.maps.Animation.DROP,
         position: new google.maps.LatLng(weddingCoord.lat, weddingCoord.lng),
-        title: 'Mariage Religieux'
+        title: 'Mariage religieux'
     });
 
     var theCocktailMarker = new google.maps.Marker({
@@ -59,11 +59,11 @@ Template.programme.rendered = function(){
     });
 
     var cocktailWindow = new google.maps.InfoWindow({
-      content: '<strong>Cocktail</strong><br>La Cabane du Mimbeau<br>28 Impasse de la Conche'
+      content: '<strong>Cocktail Ostreicole</strong><br>La Cabane du Mimbeau<br>28 Impasse de la Conche'
     });
 
     var partyWindow = new google.maps.InfoWindow({
-      content: '<strong>Soirée</strong><br>Casa Maris<br>23 avenue des Ajoncs'
+      content: '<strong>Soirée a la Casa</strong><br>Casa Maris<br>23 avenue des Ajoncs'
     });
 
     weddingWindow.open(map, theWeddingMarker);

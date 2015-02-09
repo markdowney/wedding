@@ -10,8 +10,13 @@ Template.transport.rendered = function(){
     function initialize() {
         directionsDisplay = new google.maps.DirectionsRenderer();
         var mapOptions = {
-            zoom:14,
-            center: trajet_start
+            zoom:15,
+            center: trajet_start,
+            mapTypeControl: false,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.TOP_RIGHT,
+                style: google.maps.ZoomControlStyle.SMALL
+            }
         };
         map = new google.maps.Map(this.$(".transport-map")[0], mapOptions);
         directionsDisplay.setMap(map);
